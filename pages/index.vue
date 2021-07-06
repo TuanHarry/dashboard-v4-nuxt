@@ -3,11 +3,11 @@
 </template>
 
 <script>
-import Content from '../components/Content.vue';
+import Content from '../components/Content.vue'
 
 export default {
   components: {
     Content,
   },
-};
+}
 </script>
