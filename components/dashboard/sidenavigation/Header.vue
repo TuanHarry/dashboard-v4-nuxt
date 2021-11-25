@@ -1,6 +1,5 @@
 <template>
-  <div
-    class="
+	<div class="
       bg-gray-900
       flex
       items-center
@@ -11,14 +10,18 @@
       sticky
       top-0
       z-10
-    "
-  >
-    <img src="/images/2.png" width="80" height="80" alt="Enoch Ndika" />
-  </div>
+    ">
+		<img
+			src="/images/2.png"
+			width="80"
+			height="80"
+			alt="Enoch Ndika"
+		/>
+	</div>
 </template>
 
 <script>
 export default {
-  name: 'SidenavHeader',
+	name: 'SidenavHeader',
 }
 </script>
