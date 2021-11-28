@@ -1,10 +1,11 @@
 export default {
+  ssr: false,
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Salvia-kit Dashboard v4 Nuxt.js',
+    title: 'Admin demo i18n',
     htmlAttrs: {
       lang: 'en',
     },
@@ -21,7 +22,10 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['plugins/i18n.js'],
+  router: {
+    middleware: ['i18n']
+  },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -33,9 +37,6 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
   ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
