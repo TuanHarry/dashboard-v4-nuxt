@@ -22,7 +22,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['plugins/i18n.js', 'plugins/vuex.js',],
+  plugins: ['plugins/i18n.js', 'plugins/vuex-persist.js',],
   router: {
     middleware: ['i18n']
   },

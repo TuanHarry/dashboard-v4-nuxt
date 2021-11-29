@@ -2,7 +2,7 @@ import _ from 'lodash'
 
 export const state = () => ({
   locales: ['en', 'vi'],
-  locale: 'en',
+  locale: 'vi',
 });
 
 export const mutations = {
