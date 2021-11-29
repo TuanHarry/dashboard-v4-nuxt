@@ -32,7 +32,7 @@ export default {
 
 	methods: {
 		...mapMutations({
-			setLang: 'mutations/SET_LANG',
+			setLang: 'i18n/SET_LANG',
 		}),
 
 		changeLang(lang) {
