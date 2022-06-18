@@ -37,9 +37,9 @@ export default {
 
 		changeLang(lang) {
 			this.setLang(lang)
-			this.$router.push({
-				path: `${this.$router.currentRoute.path}?lang=${lang}`,
-			})
+			// this.$router.push({
+			// 	path: `${this.$router.currentRoute.path}?lang=${lang}`,
+			// })
 		},
 	},
 }
